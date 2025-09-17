@@ -1,14 +1,12 @@
-import Articulo from './Articulo'
+//import '../App.css';
 
-function ListaArticulos({ articulos }) {
+function ListaArticulos({ children }) {
         
     return (
-        <>
-            {articulos.map((articulo, index) => (
-                <Articulo key={index} {...articulo} />
-            ))}
-        </>
-    )
+        <div className="lista-articulos">
+            {children}
+        </div>
+    )   
 }
 
 export default ListaArticulos;

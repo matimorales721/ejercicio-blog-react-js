@@ -1,4 +1,4 @@
-import './Comentario.css'
+//import '../App.css';
 
 function Comentario({ usuario, fecha, texto }) {
     return (

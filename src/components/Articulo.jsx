@@ -1,12 +1,11 @@
-import './Articulo.css';
+//import '../App.css';
 
 function Articulo({ titulo, autor, fecha, contenido, categoria }) {
         
     return (
         <>
             <div className="articulo">
-                <h2>Esto es un Articulo</h2>
-                <p>título: {titulo}</p>
+                <h2>{titulo}</h2>
                 <p>autor: {autor}</p>
                 <p>fecha: {fecha}</p>
                 <p>contenido: {contenido}</p>

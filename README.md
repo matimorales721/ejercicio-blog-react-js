@@ -1,12 +1,34 @@
-# React + Vite
+# ✅ Ejercicio: Sistema de Blog Personal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Crea una aplicación React que incluya:
 
-Currently, two official plugins are available:
+- **Componente `Articulo`**: Recibe props como título, autor, fecha, contenido y categoría.
+- **Componente `ListaArticulos`**: Recibe un array de artículos y los renderiza.
+- **Componente `Sidebar`**: Muestra categorías y un formulario de búsqueda.
+- **Componente `Comentario`**: Recibe props de usuario, fecha y texto.
+- **Componente `FormularioComentario`**: Permite agregar nuevos comentarios.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requisitos técnicos
 
-## Expanding the ESLint configuration
+- Usar props para pasar datos entre componentes.
+- Implementar composición con `children` donde sea apropiado.
+- Crear al menos 5 componentes diferentes.
+- Aplicar estilos CSS para una presentación atractiva.
+- Usar destructuring en las props.
+- Implementar funciones para manejar eventos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Estructura utilizada
+
+```text
+src/
+├── App.jsx
+├── components/
+│   ├── Articulo.jsx
+│   ├── ListaArticulos.jsx
+│   ├── Sidebar.jsx
+│   ├── Comentario.jsx
+│   └── FormularioComentario.jsx
+├── data/
+│   └── articulos.js
+└── App.css
+```
